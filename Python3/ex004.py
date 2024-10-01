@@ -1,0 +1,10 @@
+varAlgo = input('Digite algo: ')
+
+print('O tipo primitivo desse valor é: ', type(varAlgo))
+print('Alfabético:    ', varAlgo.isalpha())
+print('Alfanumérico:  ', varAlgo.isalnum())
+print('Numérico:      ', varAlgo.isnumeric())
+print('Capitalizado:  ', varAlgo.istitle())
+print('Maiúsculo:     ', varAlgo.isupper())
+print('Minúsculo:     ', varAlgo.islower())
+print('Apenas espaço: ', varAlgo.isspace())
